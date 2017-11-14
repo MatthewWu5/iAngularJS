@@ -14,6 +14,10 @@ function playerListCtrl($scope, $http) {
 			}
 		});
 	};
+
+	$scope.ngTest = function (queryVal){
+		return queryVal=='1'?'test':''
+	}
 }
 
 //Add Controller
